@@ -11,4 +11,10 @@ int main() {
    int answer;
    cout << "Enter your prediction (1-100):" << endl;
    cin >> answer;
+   if (answear == rnd) {
+      cout << "Your prediction is good!" << endl;
+   }
+   else {
+      cout << "Your prediction is bad!" << endl;
+   }
 }
