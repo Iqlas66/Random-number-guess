@@ -16,5 +16,6 @@ int main() {
    }
    else {
       cout << "Your prediction is bad!" << endl;
+      cout << "The result was:  " << rnd << endl;
    }
 }
