@@ -1,10 +1,25 @@
-# Default ignored files
+# CLion (already there)
 /shelf/
 /workspace.xml
-# Ignored default folder with query files
 /queries/
-# Datasource local storage ignored files
 /dataSources/
 /dataSources.local.xml
-# Editor-based HTTP Client requests
 /httpRequests/
+.idea/
+
+# CMake build files (ADD THESE)
+cmake-build-*/
+build/
+CMakeCache.txt
+CMakeFiles/
+*.cmake
+Makefile
+
+# Executables (ADD THESE)
+*.exe
+*.out
+guess_random_number
+
+# Compiled Object files
+*.o
+*.obj
