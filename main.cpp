@@ -9,7 +9,7 @@ int main() {
    int attempts = 0;
    srand(time(0));
    int rnd = rand() % 100 + 1;
-   int answer;
+   int answer = 0;
 
    while (attempts < 5) {
       cout << "Enter your prediction (1-100):" << endl;
@@ -17,15 +17,11 @@ int main() {
       attempts++;
       if (answer == rnd) {
          cout << "Your prediction is good!" << endl;
-         cout << "You got " << 5 - attempts << "points" << endl;
+         cout << "You got " << 5 - attempts << " points" << endl;
          break;
       }
-      else {
-         cout << "Your prediction is bad!" << endl;
-         cout << "Attempts left: " << (5 - attempts) << endl;
-
-
-      }
+      cout << "Your prediction is bad!" << endl;
+      cout << "Attempts left: " << (5 - attempts) << endl;
    }
    if (answer != rnd) {
       cout << "You lose, random number was:  " << rnd  <<endl;
