@@ -28,7 +28,7 @@ int main() {
       }
    }
    if (answer != rnd) {
-      cout << "You lose, random number was: " << rnd  <<endl;
+      cout << "You lose, random number was:  " << rnd  <<endl;
    }
 
 }
